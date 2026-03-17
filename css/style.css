@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+:root{
+	--menu-hover:#FE8F01;
+	--color-general:#e0e0e0;
+	--color-titulos:#282d33;
+	--color-iconos: #e0e0e0;
+	--color-checks:#53c3c9;
+	--color-fondo: #D3D3D3;
+}
+body{
+	font-size: 14px;
+}
+header{
+	background-color: #FFF;
+	padding: 5px 0;
+}
+
+#hero{
+background-image: url("../img/bg-services-title.jpg");
+background-size: cover;
+background-position: center;	
+height: 300px;
+
+}
+
+#hero h1{
+	color: #fff;
+	font-size: 48px;
+	font-weight: 800;
+	text-align: center;
+	padding-top: 10%;
+}
+
+#iconos{
+	padding: 80px 0;
+	background-color: #f8f8f8;
+}
+
+.icono{
+	font-size: 60px;
+	color: var(--color-iconos);
+	margin-bottom: 20px;
+}
+
+.titulo-icono{
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+#iconos p{
+	color: #888;
+	max-width: 280px;
+	margin: 0 auto;
+	line-height: 1.6;
+}
+
+.check-icon{
+	color: var(--color-checks);
+	font-size: 40px;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+#work{
+	padding: 80px 0;
+	background-color: var(--color-fondo);
+}
+
+
+.header-titulo{
+	margin-bottom: 50px;
+}
+
+.titulo{
+	font-size: 28px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.subtitulo{
+	color: #888;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+
+.img-work{
+	width: 100%;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+
+.titulo-work{
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+#work p{
+	color: #888;
+	font-size: 14px;
+	line-height: 1.5;
+	padding: 0 10px;
+}
+
+footer{
+	background-color: #333333;
+	color: #bababa;
+	padding: 15px 0;
+	text-align: center;
+	
+}
+
